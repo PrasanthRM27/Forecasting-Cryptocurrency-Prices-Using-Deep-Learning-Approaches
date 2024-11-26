@@ -23,4 +23,4 @@ In this project,The following deep learning models for predicting the XRP price:
 
 ![image](https://github.com/user-attachments/assets/c177b20a-561d-438a-90f0-26b7123060a0)
 
-While LSTM + GRU have the lowest error, suggesting the best accuracy, GRU performs the worst, displaying the largest mistakes. LSTM is a good option because it performs well and has accuracy comparable to that of LSTM + GRU. When it comes to prediction accuracy, LSTM + GRU perform better than the other models.
+LSTM + GRU appears to perform the best across all three error metrics (RMSE, MAE, and MAPE). This model consistently shows the lowest error values for both MAE and MAPE, indicating that it has a better overall prediction accuracy compared to the other models. While the RMSE value for this model is not the lowest, it is still relatively competitive compared to the other models. Therefore, LSTM + GRU is likely the most balanced and effective model in terms of minimizing error.
